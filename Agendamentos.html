@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pão & Felicidade</title>
+    <link rel="stylesheet" href="css/Style_Agendamentos.css">
+
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <div class="header-container">
+
+            <!-- LOGO -->
+            <div class="logo-area">
+
+                <!--
+                    COLOQUE SUA LOGO AQUI:
+
+                    img/logo.png
+                -->
+
+                <img
+                    src="img/Logo (2).png"
+                    alt="Logo Pão & Felicidade"
+                    class="logo"
+                >
+
+                <div class="logo-text">
+                    PÃO & FELICIDADE
+                </div>
+
+            </div>
+
+
+            <!-- MENU -->
+
+            <nav>
+
+                <a href="index.html">
+                    Início
+                </a>
+
+                <a href="Agendamentos.html">
+                    Agendamentos
+                </a>
+
+                <a href="Food_to_Save.html">
+                    Food to Save
+                </a>
+
+            </nav>
+
+
+            <!-- CARRINHO -->
+
+            <a href="#" class="cart-button">
+
+                <span class="cart-icon">
+                    🛒
+                </span>
+
+                <span>
+                    Carrinho
+                </span>
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             IMAGEM PRINCIPAL
+        ================================================== -->
+
+        <section class="hero-agendamento">
+
+            <div class="hero-image">
+
+                <img
+                    src="img/Cliente_sendo_atendido.png"
+                    alt="Atendente entregando uma sacola para cliente"
+                >
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             TÍTULO
+        ================================================== -->
+
+        <section class="intro">
+
+            <span class="intro-small">
+                PÃO & FELICIDADE
+            </span>
+
+            <h1>
+                Faça seu agendamento
+            </h1>
+
+            <p>
+                Reserve seu pedido de forma simples e rápida.
+                Preencha seus dados abaixo e escolha o melhor
+                horário para você.
+            </p>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ÁREA DE AGENDAMENTO
+        ================================================== -->
+
+        <section class="booking-section">
+
+
+            <!-- =================================================
+                 FORMULÁRIO
+            ================================================== -->
+
+            <div class="form-card">
+
+                <div class="card-title">
+
+                    <span>📅</span>
+
+                    <h2>
+                        Seus dados
+                    </h2>
+
+                </div>
+
+
+                <form>
+
+
+                    <!-- NOME -->
+
+                    <div class="form-group">
+
+                        <label for="nome">
+                            Nome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- E-MAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            E-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Digite seu e-mail"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- TELEFONE -->
+
+                    <div class="form-group">
+
+                        <label for="telefone">
+                            Telefone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="telefone"
+                            name="telefone"
+                            placeholder="(00) 00000-0000"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- DATA -->
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="data">
+                                Data
+                            </label>
+
+                            <input
+                                type="date"
+                                id="data"
+                                name="data"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- HORÁRIO -->
+
+                        <div class="form-group">
+
+                            <label for="horario">
+                                Horário
+                            </label>
+
+                            <input
+                                type="time"
+                                id="horario"
+                                name="horario"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- MENSAGEM -->
+
+                    <div class="form-group">
+
+                        <label for="mensagem">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            placeholder="Digite uma observação sobre seu agendamento..."
+                            rows="4"
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- BOTÃO -->
+
+                    <button
+                        type="submit"
+                        class="booking-button"
+                    >
+                        Confirmar agendamento
+                    </button>
+
+                </form>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 INFORMAÇÕES
+            ================================================== -->
+
+            <aside class="info-card">
+
+
+                <div class="card-title">
+
+                    <span>📍</span>
+
+                    <h2>
+                        Nossas informações
+                    </h2>
+
+                </div>
+
+
+                <!-- ENDEREÇO -->
+
+                <div class="info-item">
+
+                    <div class="info-icon">
+                        📍
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Endereço
+                        </h3>
+
+                        <p>
+                            Alameda Gabriel Monteiro da Silva, 1874
+                            <br>
+                            Jardim Paulista, São Paulo - SP
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TELEFONE -->
+
+                <div class="info-item">
+
+                    <div class="info-icon">
+                        📞
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Telefone
+                        </h3>
+
+                        <p>
+                            (11) 87564-2765
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- E-MAIL -->
+
+                <div class="info-item">
+
+                    <div class="info-icon">
+                        ✉️
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            E-mail
+                        </h3>
+
+                        <p>
+                            padaria_felicidade@gmail.com
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HORÁRIO -->
+
+                <div class="info-item">
+
+                    <div class="info-icon">
+                        🕐
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Horário de atendimento
+                        </h3>
+
+                        <p>
+                            Segunda a sábado
+                            <br>
+                            06:00 às 19:00
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- AVISO -->
+
+                <div class="info-notice">
+
+                    <strong>
+                        💡 Importante
+                    </strong>
+
+                    <p>
+                        O agendamento será confirmado após
+                        a análise da disponibilidade da padaria.
+                    </p>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         RODAPÉ
+    ====================================================== -->
+
+    <footer id="contato">
+
+        <div class="footer-container">
+
+
+            <div class="footer-column">
+
+                <h3>
+                    📍 Endereço
+                </h3>
+
+                <p>
+                    Alameda Gabriel Monteiro da Silva, 1874
+                    <br>
+                    Jardim Paulista, São Paulo - SP
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    📞 Telefone
+                </h3>
+
+                <p>
+                    (11) 87564-2765
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    ✉ E-mail
+                </h3>
+
+                <p>
+                    padaria_felicidade@gmail.com
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    📷 Instagram
+                </h3>
+
+                <p>
+                    @padaria_felicidade
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Pão & Felicidade — Todos os direitos reservados.
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
